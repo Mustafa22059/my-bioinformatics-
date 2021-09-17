@@ -1,9 +1,0 @@
-#similarity between two sequence allignmet
-conda install -c conda-forge/label/cf201901 python-levenshtein
-
-import Levenshtein
-string1 = "ATGCTTACCCG"
-string2 = "ATGGTCGCAAA"
-# Formula is: Levenshtein.ratio(string1,string2)*100
-i =(Levenshtein.ratio(string1,string2)*100)
-print("{0} % is the percentatge of identity between the two sequences".format(i))
